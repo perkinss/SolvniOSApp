@@ -20,6 +20,13 @@
 		68B4D6EB1662DC2900317850 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B4D6E91662DC2900317850 /* MainStoryboard_iPad.storyboard */; };
 		68B4D6EE1662DC2900317850 /* SolutionsMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D6ED1662DC2900317850 /* SolutionsMasterViewController.m */; };
 		68B4D6F11662DC2900317850 /* SolutionsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D6F01662DC2900317850 /* SolutionsDetailViewController.m */; };
+		68B4D7041662DCEF00317850 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D6F71662DCEF00317850 /* main.m */; };
+		68B4D7051662DCEF00317850 /* Solution.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D6F91662DCEF00317850 /* Solution.m */; };
+		68B4D7061662DCEF00317850 /* SolutionDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D6FB1662DCEF00317850 /* SolutionDataController.m */; };
+		68B4D7081662DCEF00317850 /* SolutionsBookDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D6FF1662DCEF00317850 /* SolutionsBookDataController.m */; };
+		68B4D7091662DCEF00317850 /* SolutionsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D7011662DCEF00317850 /* SolutionsDetailViewController.m */; };
+		68B4D70A1662DCEF00317850 /* SolutionsMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D7031662DCEF00317850 /* SolutionsMasterViewController.m */; };
+		68B4D70D1662DD3F00317850 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D70C1662DD3F00317850 /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +49,19 @@
 		68B4D6ED1662DC2900317850 /* SolutionsMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolutionsMasterViewController.m; sourceTree = "<group>"; };
 		68B4D6EF1662DC2900317850 /* SolutionsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolutionsDetailViewController.h; sourceTree = "<group>"; };
 		68B4D6F01662DC2900317850 /* SolutionsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolutionsDetailViewController.m; sourceTree = "<group>"; };
+		68B4D6F71662DCEF00317850 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../../Solvation/main.m; sourceTree = "<group>"; };
+		68B4D6F81662DCEF00317850 /* Solution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Solution.h; path = ../../../Solvation/Solution.h; sourceTree = "<group>"; };
+		68B4D6F91662DCEF00317850 /* Solution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Solution.m; path = ../../../Solvation/Solution.m; sourceTree = "<group>"; };
+		68B4D6FA1662DCEF00317850 /* SolutionDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolutionDataController.h; path = ../../../Solvation/SolutionDataController.h; sourceTree = "<group>"; };
+		68B4D6FB1662DCEF00317850 /* SolutionDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolutionDataController.m; path = ../../../Solvation/SolutionDataController.m; sourceTree = "<group>"; };
+		68B4D6FE1662DCEF00317850 /* SolutionsBookDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolutionsBookDataController.h; path = ../../../Solvation/SolutionsBookDataController.h; sourceTree = "<group>"; };
+		68B4D6FF1662DCEF00317850 /* SolutionsBookDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolutionsBookDataController.m; path = ../../../Solvation/SolutionsBookDataController.m; sourceTree = "<group>"; };
+		68B4D7001662DCEF00317850 /* SolutionsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolutionsDetailViewController.h; path = ../../../Solvation/SolutionsDetailViewController.h; sourceTree = "<group>"; };
+		68B4D7011662DCEF00317850 /* SolutionsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolutionsDetailViewController.m; path = ../../../Solvation/SolutionsDetailViewController.m; sourceTree = "<group>"; };
+		68B4D7021662DCEF00317850 /* SolutionsMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolutionsMasterViewController.h; path = ../../../Solvation/SolutionsMasterViewController.h; sourceTree = "<group>"; };
+		68B4D7031662DCEF00317850 /* SolutionsMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolutionsMasterViewController.m; path = ../../../Solvation/SolutionsMasterViewController.m; sourceTree = "<group>"; };
+		68B4D70B1662DD3E00317850 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Book.h; path = ../../../Solvation/Book.h; sourceTree = "<group>"; };
+		68B4D70C1662DD3F00317850 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Book.m; path = ../../../Solvation/Book.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +109,19 @@
 			isa = PBXGroup;
 			children = (
 				68B4D6DD1662DC2900317850 /* SolutionsAppDelegate.h */,
+				68B4D6F71662DCEF00317850 /* main.m */,
+				68B4D6F81662DCEF00317850 /* Solution.h */,
+				68B4D6F91662DCEF00317850 /* Solution.m */,
+				68B4D70B1662DD3E00317850 /* Book.h */,
+				68B4D70C1662DD3F00317850 /* Book.m */,
+				68B4D6FA1662DCEF00317850 /* SolutionDataController.h */,
+				68B4D6FB1662DCEF00317850 /* SolutionDataController.m */,
+				68B4D6FE1662DCEF00317850 /* SolutionsBookDataController.h */,
+				68B4D6FF1662DCEF00317850 /* SolutionsBookDataController.m */,
+				68B4D7001662DCEF00317850 /* SolutionsDetailViewController.h */,
+				68B4D7011662DCEF00317850 /* SolutionsDetailViewController.m */,
+				68B4D7021662DCEF00317850 /* SolutionsMasterViewController.h */,
+				68B4D7031662DCEF00317850 /* SolutionsMasterViewController.m */,
 				68B4D6DE1662DC2900317850 /* SolutionsAppDelegate.m */,
 				68B4D6E61662DC2900317850 /* MainStoryboard_iPhone.storyboard */,
 				68B4D6E91662DC2900317850 /* MainStoryboard_iPad.storyboard */,
@@ -187,6 +220,13 @@
 				68B4D6DF1662DC2900317850 /* SolutionsAppDelegate.m in Sources */,
 				68B4D6EE1662DC2900317850 /* SolutionsMasterViewController.m in Sources */,
 				68B4D6F11662DC2900317850 /* SolutionsDetailViewController.m in Sources */,
+				68B4D7041662DCEF00317850 /* main.m in Sources */,
+				68B4D7051662DCEF00317850 /* Solution.m in Sources */,
+				68B4D7061662DCEF00317850 /* SolutionDataController.m in Sources */,
+				68B4D7081662DCEF00317850 /* SolutionsBookDataController.m in Sources */,
+				68B4D7091662DCEF00317850 /* SolutionsDetailViewController.m in Sources */,
+				68B4D70A1662DCEF00317850 /* SolutionsMasterViewController.m in Sources */,
+				68B4D70D1662DD3F00317850 /* Book.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
