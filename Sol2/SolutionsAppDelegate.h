@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SolutionsMasterViewController.h"
 
 @interface SolutionsAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) SolutionsMasterViewController *controller;
 
 @end

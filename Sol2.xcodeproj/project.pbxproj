@@ -18,15 +18,14 @@
 		68B4D6E51662DC2900317850 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B4D6E41662DC2900317850 /* Default-568h@2x.png */; };
 		68B4D6E81662DC2900317850 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B4D6E61662DC2900317850 /* MainStoryboard_iPhone.storyboard */; };
 		68B4D6EB1662DC2900317850 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B4D6E91662DC2900317850 /* MainStoryboard_iPad.storyboard */; };
-		68B4D6EE1662DC2900317850 /* SolutionsMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D6ED1662DC2900317850 /* SolutionsMasterViewController.m */; };
-		68B4D6F11662DC2900317850 /* SolutionsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D6F01662DC2900317850 /* SolutionsDetailViewController.m */; };
-		68B4D7041662DCEF00317850 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D6F71662DCEF00317850 /* main.m */; };
 		68B4D7051662DCEF00317850 /* Solution.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D6F91662DCEF00317850 /* Solution.m */; };
 		68B4D7061662DCEF00317850 /* SolutionDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D6FB1662DCEF00317850 /* SolutionDataController.m */; };
 		68B4D7081662DCEF00317850 /* SolutionsBookDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D6FF1662DCEF00317850 /* SolutionsBookDataController.m */; };
 		68B4D7091662DCEF00317850 /* SolutionsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D7011662DCEF00317850 /* SolutionsDetailViewController.m */; };
 		68B4D70A1662DCEF00317850 /* SolutionsMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D7031662DCEF00317850 /* SolutionsMasterViewController.m */; };
 		68B4D70D1662DD3F00317850 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4D70C1662DD3F00317850 /* Book.m */; };
+		68B4D70F1662F23700317850 /* TestBook.xml in Resources */ = {isa = PBXBuildFile; fileRef = 68B4D70E1662F23700317850 /* TestBook.xml */; };
+		68B4D7131662F72300317850 /* amathtext.gif in Resources */ = {isa = PBXBuildFile; fileRef = 68B4D7121662F72300317850 /* amathtext.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,11 +44,6 @@
 		68B4D6E41662DC2900317850 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		68B4D6E71662DC2900317850 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		68B4D6EA1662DC2900317850 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		68B4D6EC1662DC2900317850 /* SolutionsMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolutionsMasterViewController.h; sourceTree = "<group>"; };
-		68B4D6ED1662DC2900317850 /* SolutionsMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolutionsMasterViewController.m; sourceTree = "<group>"; };
-		68B4D6EF1662DC2900317850 /* SolutionsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolutionsDetailViewController.h; sourceTree = "<group>"; };
-		68B4D6F01662DC2900317850 /* SolutionsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolutionsDetailViewController.m; sourceTree = "<group>"; };
-		68B4D6F71662DCEF00317850 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../../Solvation/main.m; sourceTree = "<group>"; };
 		68B4D6F81662DCEF00317850 /* Solution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Solution.h; path = ../../../Solvation/Solution.h; sourceTree = "<group>"; };
 		68B4D6F91662DCEF00317850 /* Solution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Solution.m; path = ../../../Solvation/Solution.m; sourceTree = "<group>"; };
 		68B4D6FA1662DCEF00317850 /* SolutionDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolutionDataController.h; path = ../../../Solvation/SolutionDataController.h; sourceTree = "<group>"; };
@@ -62,6 +56,8 @@
 		68B4D7031662DCEF00317850 /* SolutionsMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolutionsMasterViewController.m; path = ../../../Solvation/SolutionsMasterViewController.m; sourceTree = "<group>"; };
 		68B4D70B1662DD3E00317850 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Book.h; path = ../../../Solvation/Book.h; sourceTree = "<group>"; };
 		68B4D70C1662DD3F00317850 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Book.m; path = ../../../Solvation/Book.m; sourceTree = "<group>"; };
+		68B4D70E1662F23700317850 /* TestBook.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestBook.xml; sourceTree = "<group>"; };
+		68B4D7121662F72300317850 /* amathtext.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = amathtext.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +104,6 @@
 		68B4D6D41662DC2900317850 /* Sol2 */ = {
 			isa = PBXGroup;
 			children = (
-				68B4D6DD1662DC2900317850 /* SolutionsAppDelegate.h */,
-				68B4D6F71662DCEF00317850 /* main.m */,
 				68B4D6F81662DCEF00317850 /* Solution.h */,
 				68B4D6F91662DCEF00317850 /* Solution.m */,
 				68B4D70B1662DD3E00317850 /* Book.h */,
@@ -122,13 +116,10 @@
 				68B4D7011662DCEF00317850 /* SolutionsDetailViewController.m */,
 				68B4D7021662DCEF00317850 /* SolutionsMasterViewController.h */,
 				68B4D7031662DCEF00317850 /* SolutionsMasterViewController.m */,
+				68B4D6DD1662DC2900317850 /* SolutionsAppDelegate.h */,
 				68B4D6DE1662DC2900317850 /* SolutionsAppDelegate.m */,
 				68B4D6E61662DC2900317850 /* MainStoryboard_iPhone.storyboard */,
 				68B4D6E91662DC2900317850 /* MainStoryboard_iPad.storyboard */,
-				68B4D6EC1662DC2900317850 /* SolutionsMasterViewController.h */,
-				68B4D6ED1662DC2900317850 /* SolutionsMasterViewController.m */,
-				68B4D6EF1662DC2900317850 /* SolutionsDetailViewController.h */,
-				68B4D6F01662DC2900317850 /* SolutionsDetailViewController.m */,
 				68B4D6D51662DC2900317850 /* Supporting Files */,
 			);
 			path = Sol2;
@@ -137,6 +128,7 @@
 		68B4D6D51662DC2900317850 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				68B4D7121662F72300317850 /* amathtext.gif */,
 				68B4D6D61662DC2900317850 /* Sol2-Info.plist */,
 				68B4D6D71662DC2900317850 /* InfoPlist.strings */,
 				68B4D6DA1662DC2900317850 /* main.m */,
@@ -144,6 +136,7 @@
 				68B4D6E01662DC2900317850 /* Default.png */,
 				68B4D6E21662DC2900317850 /* Default@2x.png */,
 				68B4D6E41662DC2900317850 /* Default-568h@2x.png */,
+				68B4D70E1662F23700317850 /* TestBook.xml */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -206,6 +199,8 @@
 				68B4D6E51662DC2900317850 /* Default-568h@2x.png in Resources */,
 				68B4D6E81662DC2900317850 /* MainStoryboard_iPhone.storyboard in Resources */,
 				68B4D6EB1662DC2900317850 /* MainStoryboard_iPad.storyboard in Resources */,
+				68B4D70F1662F23700317850 /* TestBook.xml in Resources */,
+				68B4D7131662F72300317850 /* amathtext.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,9 +213,6 @@
 			files = (
 				68B4D6DB1662DC2900317850 /* main.m in Sources */,
 				68B4D6DF1662DC2900317850 /* SolutionsAppDelegate.m in Sources */,
-				68B4D6EE1662DC2900317850 /* SolutionsMasterViewController.m in Sources */,
-				68B4D6F11662DC2900317850 /* SolutionsDetailViewController.m in Sources */,
-				68B4D7041662DCEF00317850 /* main.m in Sources */,
 				68B4D7051662DCEF00317850 /* Solution.m in Sources */,
 				68B4D7061662DCEF00317850 /* SolutionDataController.m in Sources */,
 				68B4D7081662DCEF00317850 /* SolutionsBookDataController.m in Sources */,

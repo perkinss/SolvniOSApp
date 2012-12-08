@@ -7,8 +7,10 @@
 //
 
 #import "SolutionsAppDelegate.h"
+@class SolutionsMasterViewController;
 
 @implementation SolutionsAppDelegate
+@synthesize controller = _controller;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -18,6 +20,12 @@
         UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
         splitViewController.delegate = (id)navigationController.topViewController;
     }
+    if (!_controller) {
+        _controller = [[SolutionsMasterViewController alloc] init];
+    }
+//    -(void)insertBookWithTitle:(NSString *)title :andImage:(NSString *)pathToImage {
+    [_controller isViewLoaded];
+
     return YES;
 }
 							
